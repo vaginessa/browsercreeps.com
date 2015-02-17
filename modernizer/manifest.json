@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.browserleaks.com/modernizr"
+      },
+      "urls": [ "http://www.browserleaks.com/modernizr" ]
+   },
+   "description": "Quick Search for Modernizr Tests",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAytkRt8D2yBrty8n9x3I19cXpAvQU5FJdftI6k7JglGRn+t5cm+Jsnuz03nhTTDa3waaQLfq7gIX/EY0eWNwEB4MyxldocPzwslriDdi/gTCLg/LqcZUlitzfIbioyZugXOcy8c5Rx/bY1jC9Oyyspe8i3o8IMyUGmgWitega2QIDAQAB",
+   "manifest_version": 2,
+   "name": "Modernizr Helper",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.6"
+}
