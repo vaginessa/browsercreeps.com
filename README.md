@@ -4,3 +4,4 @@
 Seven Hundred and Fifty Seven Thousand.
 
 https://web.archive.org/web/20150211210722*/http://www.browserleaks.com/
+http://w3bin.com/domain/browserleaks.com
