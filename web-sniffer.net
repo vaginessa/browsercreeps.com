@@ -1,0 +1,81 @@
+
+
+
+
+
+ 	<p id="top-slogan"><img src="/web/20150201085447im_/http://web-sniffer.net/images/web-sniffer.png" width="16" height="10" alt="" />&#160;&#160;<a href="/web/20150201085447/http://web-sniffer.net/">HTTP Web-Sniffer 1.1.0</a></p>
+ 	<p id="top-footer">Webtip</p>
+
+	<h1>View HTTP Request and Response Header</h1>
+
+	<p><a style="margin: 20px 0; padding: 4px 6px; border: 1px solid #333; display: inline-block;" href="/web/20150201085447/http://web-sniffer.net/app.html"><strong>Check out our new free Web-Sniffer desktop app for Windows and Mac.</strong></a></p>
+
+  <form action="/web/20150201085447/http://web-sniffer.net/" method="post">
+    <fieldset>
+      <legend>For more information on <abbr title="HyperText Transfer Protocol">HTTP</abbr> see <a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc2616.html"><strong><abbr title="Request for Comment">RFC</abbr> 2616</a></strong></legend>
+      <p>
+        <strong>HTTP(S)-URL:</strong> <input class="text url" type="text" id="url" name="url" value="" /> <input type="submit" name="submit" value="Submit" /> <span style="font-size:0.8em;">(<abbr title="Internationalized Domain Names">IDN</abbr> allowed)</span>
+      </p>
+      <p>
+      	HTTP version: 
+      	<label for="http-version11"><input type="radio" checked="checked" name="http" id="http-version11" value="1.1" /> HTTP/1.1</label>
+      	<label for="http-version10h"><input type="radio" name="http" id="http-version10h" value="1.0h" /> HTTP/1.0 (with Host header)</label>
+      	<label for="http-version10"><input type="radio" name="http" id="http-version10" value="1.0" /> HTTP/1.0 (without Host header)</label>
+      </p>
+      <p>
+        <label for="rawhtml"><input type="checkbox" name="rawhtml" value="yes" id="rawhtml" /> Raw <abbr title="HyperText Markup Language">HTML</abbr> view</label>
+        <label for="gzip"><input type="checkbox" name="gzip" value="yes" id="gzip" checked="checked" /> Accept-Encoding: gzip</label>
+        &bull; Request type:<label for="get-request"><input checked="checked" type="radio" name="type" id="get-request" value="GET" /> GET</label>
+        <label for="post-request"><input type="radio" name="type" id="post-request" value="POST" /> POST</label>
+        <label for="head-request"><input type="radio" name="type" id="head-request" value="HEAD" /> HEAD</label>
+        <label for="trace-request"><input type="radio" name="type" id="trace-request" value="TRACE" /> TRACE</label>
+      </p>
+      <p>
+      	<label for="ua-list">User agent:
+      		<select name="uak" id="ua-list">
+<option value="0">Web-Sniffer</option><option value="1">Internet Explorer 6</option><option value="2">Internet Explorer 7</option><option value="3">Firefox 3</option><option value="4">Google Chrome 5</option><option value="5">Safari 5</option><option value="6">iPhone Mobile Safari</option><option value="7">Netscape 4.8</option><option value="8">Opera 9.2</option><option value="9">Googlebot</option><option value="10">none</option><option value="11">your user agent</option>      		</select>
+      	</label>
+      </p>
+<hr /><script type="text/javascript" src="/web/20150201085447js_/http://www.google.com/recaptcha/api/challenge?k=6LdebfkSAAAAAC-3f_6l_UlcJXHzE9K0CedXv82_"></script>
+
+	<noscript>
+  		<iframe src="/web/20150201085447if_/http://www.google.com/recaptcha/api/noscript?k=6LdebfkSAAAAAC-3f_6l_UlcJXHzE9K0CedXv82_" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript>    </fieldset>
+  </form>
+
+
+	<h2>Features:</h2>
+	
+	<ul>
+		<li>list of user agents</li>
+		<li>switch between <a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc2616.html">HTTP/1.1</a> and <a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc2616.html#section-19.6.1">HTTP/1.0</a></li>
+		<li>test <a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc2616.html#section-14.25">If-Modified-Since</a> and <a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc2616.html#section-14.24">If-Match</a> headers</li>
+		<li>support <a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc2616.html#section-14.47">WWW-Authenticate</a></li>
+		<li>search engine redirect added &ndash; all bots will be moved permanently to frontpage</li>
+		<li>the <abbr title="Uniform Resource Locator">URL</abbr> may also be an <a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc3490.html">Internationalized Domain Names (IDN)</a></li>
+		<li>secure connections (HTTPS) allowed</li>
+	</ul>
+
+	<h2>See also:</h2>
+	
+	<ul>
+		<li><a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc2616.html">RFC 2616 - Hypertext Transfer Protocol (HTTP)</a></li>
+		<li><a href="/web/20150201085447/http://web-sniffer.net/rfc/rfc3490.html">RFC 3490 - Internationalizing Domain Names in Applications (IDNA)</a></li>
+	</ul>
+	
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-54356813-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script>
+
+</body>
+</html>
