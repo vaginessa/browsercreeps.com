@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /img/i/
+Disallow: /xhr/
+Disallow: /modernizr/external/
