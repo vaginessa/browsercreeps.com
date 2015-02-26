@@ -1,0 +1,70 @@
+40554: URL_REQUEST
+https://clients4.google.com/chrome-sync/dev/command/?client=Chromium&client_id=x5kKiixv0OeVftlmfUlqTQ%3D%3D
+Start Time: 2015-02-26 08:22:04.639
+
+t=2166515 [st=  0] +REQUEST_ALIVE  [dt=358]
+t=2166515 [st=  0]   +URL_REQUEST_START_JOB  [dt=357]
+                      --> load_flags = 65600 (DISABLE_INTERCEPT | DO_NOT_SEND_COOKIES)
+                      --> method = "POST"
+                      --> priority = "LOWEST"
+                      --> upload_id = "0"
+                      --> url = "https://clients4.google.com/chrome-sync/dev/command/?client=Chromium&client_id=x5kKiixv0OeVftlmfUlqTQ%3D%3D"
+t=2166515 [st=  0]      URL_REQUEST_DELEGATE  [dt=0]
+t=2166515 [st=  0]     +HTTP_STREAM_REQUEST  [dt=0]
+t=2166515 [st=  0]        HTTP_STREAM_REQUEST_BOUND_TO_JOB
+                          --> source_dependency = 40555 (HTTP_STREAM_JOB)
+t=2166515 [st=  0]     -HTTP_STREAM_REQUEST
+t=2166515 [st=  0]     +HTTP_TRANSACTION_SEND_REQUEST  [dt=0]
+t=2166515 [st=  0]        HTTP_TRANSACTION_SPDY_SEND_REQUEST_HEADERS
+                          --> :host: clients4.google.com
+                              :method: POST
+                              :path: /chrome-sync/dev/command/?client=Chromium&client_id=x5kKiixv0OeVftlmfUlqTQ%3D%3D
+                              :scheme: https
+                              :version: HTTP/1.1
+                              accept-encoding: gzip, deflate
+                              accept-language: en-GB,en-US;q=0.8,en;q=0.6,es;q=0.4,fr;q=0.2
+                              authorization: Bearer [83 bytes were stripped]
+                              content-length: 6631
+                              content-type: application/octet-stream
+                              user-agent: Chrome LINUX 40.0.2214.111 (df7cc6c04725630dd4460f29d858a77507343b24)-devel
+t=2166515 [st=  0]     -HTTP_TRANSACTION_SEND_REQUEST
+t=2166515 [st=  0]     +HTTP_TRANSACTION_READ_HEADERS  [dt=357]
+t=2166515 [st=  0]        SPDY_STREAM_UPDATE_SEND_WINDOW
+                          --> delta = -2852
+                          --> stream_id = 7
+                          --> window_size = 62684
+t=2166515 [st=  0]        SPDY_STREAM_UPDATE_SEND_WINDOW
+                          --> delta = -2852
+                          --> stream_id = 7
+                          --> window_size = 59832
+t=2166515 [st=  0]        SPDY_STREAM_UPDATE_SEND_WINDOW
+                          --> delta = -927
+                          --> stream_id = 7
+                          --> window_size = 58905
+t=2166872 [st=357]        HTTP_TRANSACTION_READ_RESPONSE_HEADERS
+                          --> HTTP/1.1 200 OK
+                              status: 200 OK
+                              version: HTTP/1.1
+                              alternate-protocol: 443:quic,p=0.08
+                              cache-control: private, max-age=0
+                              content-disposition: attachment; filename="response"
+                              content-length: 330
+                              content-type: application/octet-stream
+                              date: Thu, 26 Feb 2015 13:22:04 GMT
+                              expires: Thu, 26 Feb 2015 13:22:04 GMT
+                              sane-time-millis: 1424956924811
+                              server: GSE
+                              x-content-type-options: nosniff
+                              x-frame-options: SAMEORIGIN
+                              x-xss-protection: 1; mode=block
+t=2166872 [st=357]     -HTTP_TRANSACTION_READ_HEADERS
+t=2166872 [st=357]   -URL_REQUEST_START_JOB
+t=2166872 [st=357]    URL_REQUEST_DELEGATE  [dt=0]
+t=2166872 [st=357]   +HTTP_TRANSACTION_READ_BODY  [dt=0]
+t=2166872 [st=357]      SPDY_STREAM_UPDATE_RECV_WINDOW
+                        --> delta = -330
+                        --> stream_id = 7
+                        --> window_size = 10485430
+t=2166872 [st=357]   -HTTP_TRANSACTION_READ_BODY
+t=2166873 [st=358]    HTTP_TRANSACTION_READ_BODY  [dt=0]
+t=2166873 [st=358] -REQUEST_ALIVE
