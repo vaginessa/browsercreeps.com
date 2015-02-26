@@ -1,0 +1,102 @@
+40576: SOCKET
+ssl/www.worldstream.nl:443
+Start Time: 2015-02-26 08:22:12.162
+
+t=2174038 [st=    0] +SOCKET_ALIVE  [dt=15997]
+                      --> source_dependency = 40569 (CONNECT_JOB)
+t=2174038 [st=    0]   +TCP_CONNECT  [dt=141]
+                        --> address_list = ["93.190.136.5:443"]
+t=2174038 [st=    0]      TCP_CONNECT_ATTEMPT  [dt=141]
+                          --> address = "93.190.136.5:443"
+t=2174179 [st=  141]   -TCP_CONNECT
+                        --> source_address = "10.66.66.2:36708"
+t=2174179 [st=  141]   +SOCKET_IN_USE  [dt=15856]
+                        --> source_dependency = 40568 (CONNECT_JOB)
+t=2174179 [st=  141]     +SSL_CONNECT  [dt=151]
+t=2174179 [st=  141]        SOCKET_BYTES_SENT
+                            --> byte_count = 517
+t=2174329 [st=  291]        SOCKET_BYTES_RECEIVED
+                            --> byte_count = 145
+t=2174330 [st=  292]        SSL_CERTIFICATES_RECEIVED
+                            --> certificates =
+                                   -----BEGIN CERTIFICATE-----
+                                   MIIFOjCCBCKgAwIBAgIDFQSXMA0GCSqGSIb3DQEBBQUAMDwxCzAJBgNVBAYTAlVT
+                                   MRcwFQYDVQQKEw5HZW9UcnVzdCwgSW5jLjEUMBIGA1UEAxMLUmFwaWRTU0wgQ0Ew
+                                   HhcNMTQwOTAyMTcxMzM0WhcNMTUxMTA1MDEzNTUzWjCBwTEpMCcGA1UEBRMgeGRY
+                                   dGxYMnZQcFV3MjcwZDZCWndnRkcxRE1BVTZwaWYxEzARBgNVBAsTCkdUNjc3MDE1
+                                   MDUxMTAvBgNVBAsTKFNlZSB3d3cucmFwaWRzc2wuY29tL3Jlc291cmNlcy9jcHMg
+                                   KGMpMTQxLzAtBgNVBAsTJkRvbWFpbiBDb250cm9sIFZhbGlkYXRlZCAtIFJhcGlk
+                                   U1NMKFIpMRswGQYDVQQDExJ3d3cud29ybGRzdHJlYW0ubmwwggEiMA0GCSqGSIb3
+                                   DQEBAQUAA4IBDwAwggEKAoIBAQC3ua5JKJkVpDxto40fFGZnk5yrsdMvY2sdgOlo
+                                   kG0wdE2B7r8+qT/doHCHdR1Bx6abBAFiJLmkwnejtl0j3m7LV+qx+YnXD2Yl06UF
+                                   wCw9Q03URddT/bV0FEydwf1dLbPlmBvob9Df0+5CGPYg4zefRQIUnuReguce/+WR
+                                   Ksoek/j8Bn8uhh6r/19JPij0szlVQvRCevhzQp6++CSGBXX9s/BM3+ObW5q7G74g
+                                   Zzpt2qURnM+U3nkylZKf7tIQ4zWclHqNK06xILxNrNaUbaX6siFRl8VNPvJSZsk8
+                                   sfdlbyB30DaHTls474ptQYXBBNV53zFh1F6ONMrfXHFA0i8fAgMBAAGjggG9MIIB
+                                   uTAfBgNVHSMEGDAWgBRraT1qGEJK3Y8CZTn9NSSGeJEWMDAOBgNVHQ8BAf8EBAMC
+                                   BaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMC0GA1UdEQQmMCSCEnd3
+                                   dy53b3JsZHN0cmVhbS5ubIIOd29ybGRzdHJlYW0ubmwwQwYDVR0fBDwwOjA4oDag
+                                   NIYyaHR0cDovL3JhcGlkc3NsLWNybC5nZW90cnVzdC5jb20vY3Jscy9yYXBpZHNz
+                                   bC5jcmwwHQYDVR0OBBYEFGstQjvBypaLY5KdmowxRLE+wwAaMAwGA1UdEwEB/wQC
+                                   MAAweAYIKwYBBQUHAQEEbDBqMC0GCCsGAQUFBzABhiFodHRwOi8vcmFwaWRzc2wt
+                                   b2NzcC5nZW90cnVzdC5jb20wOQYIKwYBBQUHMAKGLWh0dHA6Ly9yYXBpZHNzbC1h
+                                   aWEuZ2VvdHJ1c3QuY29tL3JhcGlkc3NsLmNydDBMBgNVHSAERTBDMEEGCmCGSAGG
+                                   +EUBBzYwMzAxBggrBgEFBQcCARYlaHR0cDovL3d3dy5nZW90cnVzdC5jb20vcmVz
+                                   b3VyY2VzL2NwczANBgkqhkiG9w0BAQUFAAOCAQEAqdBq+UFUpgMNCesYRfVDAyFM
+                                   00ZK/qnputC9WhGZWqr1KkZ3+DbVJWi9RcOwlxjBHfciJP2oIqzJD8hW/SpkOaQc
+                                   RLIJSXeQbA9dMs1lL1M06/jkbHGHPwXLxuSnpjrTI9LHqnEhQEeCd6m9iF03yIG2
+                                   qA3RgHQKPPfTkX066vysbbL8OnHxBTHLE+kENhY5mVv0lZg5DN7bVWMSktoh7fYd
+                                   CEPqFQjWhFYVzPEhi8pH3iu7QfJ9h7ryOhNadIaUQ0QvRklxo4Vasd40ixE49zX8
+                                   GDYFjsjiouubUhMjpry0QnesbwYSyulCneOtLkhb1Rxb7D4gcQ9KCYTkeFikQQ==
+                                   -----END CERTIFICATE-----
+                                   
+                                   -----BEGIN CERTIFICATE-----
+                                   MIID1TCCAr2gAwIBAgIDAjbRMA0GCSqGSIb3DQEBBQUAMEIxCzAJBgNVBAYTAlVT
+                                   MRYwFAYDVQQKEw1HZW9UcnVzdCBJbmMuMRswGQYDVQQDExJHZW9UcnVzdCBHbG9i
+                                   YWwgQ0EwHhcNMTAwMjE5MjI0NTA1WhcNMjAwMjE4MjI0NTA1WjA8MQswCQYDVQQG
+                                   EwJVUzEXMBUGA1UEChMOR2VvVHJ1c3QsIEluYy4xFDASBgNVBAMTC1JhcGlkU1NM
+                                   IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx3H4Vsce2cy1rfa0
+                                   l6P7oeYLUF9QqjraD/w9KSRDxhApwfxVQHLuverfn7ZB9EhLyG7+T1cSi1v6kt1e
+                                   6K3z8Buxe037z/3R5fjj3Of1c3/fAUnPjFbBvTfjW761T4uL8NpPx+PdVUdp3/Jb
+                                   ewdPPeWsIcHIHXro5/YPoar1b96oZU8QiZwD84l6pV4BcjPtqelaHnnzh8jfyMX8
+                                   N8iamte4dsywPuf95lTq319SQXhZV63xEtZ/vNWfcNMFbPqjfWdY3SZiHTGSDHl5
+                                   HI7PynvBZq+odEj7joLCniyZXHstXZu8W1eefDp6E63yoxhbK1kPzVw662gzxigd
+                                   gtFQiwIDAQABo4HZMIHWMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUa2k9ahhC
+                                   St2PAmU5/TUkhniRFjAwHwYDVR0jBBgwFoAUwHqYaI2J+6sFZAwRfap9ZbjKzE4w
+                                   EgYDVR0TAQH/BAgwBgEB/wIBADA6BgNVHR8EMzAxMC+gLaArhilodHRwOi8vY3Js
+                                   Lmdlb3RydXN0LmNvbS9jcmxzL2d0Z2xvYmFsLmNybDA0BggrBgEFBQcBAQQoMCYw
+                                   JAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmdlb3RydXN0LmNvbTANBgkqhkiG9w0B
+                                   AQUFAAOCAQEAq7y8Cl0YlOPBscOoTFXWvrSY8e48HM3P8yQkXJYDJ1j8Nq6iL4/x
+                                   /torAsMzvcjdSCIrYA+lAxD9d/jQ7ZZnT/3qRyBwVNypDFV+4ZYlitm12ldKvo2O
+                                   SUNjpWxOJ4cl61tt/qJ/OCjgNqutOaWlYsS3XFgsql0BYKZiZ6PAx2Ij9OdsRu61
+                                   04BqIhPSLT90T+qvjF+0OJzbrs6vhB6m9jRRWXnT43XcvNfzc9+S7NIgWW+c+5X4
+                                   knYYCnwPLKbK3opie9jzzl9ovY8+wXS7FXI6FoOpC+ZNmZzYV+yoAVHHb1c0XqtK
+                                   LEL2TxyJeN4mTvVvk0wVaydWTQBUbHq3tw==
+                                   -----END CERTIFICATE-----
+                                   
+t=2174330 [st=  292]        SOCKET_BYTES_SENT
+                            --> byte_count = 59
+t=2174330 [st=  292]        SIGNED_CERTIFICATE_TIMESTAMPS_RECEIVED
+                            --> embedded_scts = ""
+                            --> scts_from_ocsp_response = ""
+                            --> scts_from_tls_extension = ""
+t=2174330 [st=  292]        SIGNED_CERTIFICATE_TIMESTAMPS_CHECKED
+                            --> invalid_scts = []
+                            --> unknown_logs_scts = []
+                            --> verified_scts = []
+t=2174330 [st=  292]     -SSL_CONNECT
+t=2174330 [st=  292]     +SOCKET_IN_USE  [dt=487]
+                          --> source_dependency = 40564 (HTTP_STREAM_JOB)
+t=2174330 [st=  292]        SSL_SOCKET_BYTES_SENT
+                            --> byte_count = 816
+t=2174330 [st=  292]        SOCKET_BYTES_SENT
+                            --> byte_count = 890
+t=2174816 [st=  778]        SOCKET_BYTES_RECEIVED
+                            --> byte_count = 554
+t=2174816 [st=  778]        SSL_SOCKET_BYTES_RECEIVED
+                            --> byte_count = 490
+t=2174817 [st=  779]     -SOCKET_IN_USE
+t=2189828 [st=15790]      SOCKET_BYTES_RECEIVED
+                          --> byte_count = 37
+t=2190035 [st=15997]   -SOCKET_IN_USE
+t=2190035 [st=15997] -SOCKET_ALIVE
