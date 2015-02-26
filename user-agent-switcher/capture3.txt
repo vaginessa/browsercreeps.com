@@ -1,0 +1,12 @@
+40541: HOST_RESOLVER_IMPL_REQUEST
+www.worldstream.nl:443
+Start Time: 2015-02-26 08:21:56.163
+
+t=2158039 [st=0] +HOST_RESOLVER_IMPL_REQUEST  [dt=1]
+                  --> address_family = 0
+                  --> allow_cached_response = true
+                  --> host = "www.worldstream.nl:443"
+                  --> is_speculative = false
+                  --> source_dependency = 40540 (CONNECT_JOB)
+t=2158040 [st=1]    HOST_RESOLVER_IMPL_CACHE_HIT
+t=2158040 [st=1] -HOST_RESOLVER_IMPL_REQUEST
