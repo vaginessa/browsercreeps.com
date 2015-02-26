@@ -1,0 +1,19 @@
+40539: CONNECT_JOB
+ssl/www.worldstream.nl:443
+Start Time: 2015-02-26 08:21:56.163
+
+t=2158039 [st=  0] +SOCKET_POOL_CONNECT_JOB  [dt=294]
+                    --> group_name = "ssl/www.worldstream.nl:443"
+t=2158039 [st=  0]   +SOCKET_POOL_CONNECT_JOB_CONNECT  [dt=294]
+t=2158039 [st=  0]      TCP_CLIENT_SOCKET_POOL_REQUESTED_SOCKET
+                        --> host_and_port = "www.worldstream.nl:443"
+t=2158039 [st=  0]     +SOCKET_POOL  [dt=143]
+t=2158182 [st=143]        SOCKET_POOL_BOUND_TO_CONNECT_JOB
+                          --> source_dependency = 40540 (CONNECT_JOB)
+t=2158182 [st=143]        SOCKET_POOL_BOUND_TO_SOCKET
+                          --> source_dependency = 40547 (SOCKET)
+t=2158182 [st=143]     -SOCKET_POOL
+t=2158333 [st=294]      CONNECT_JOB_SET_SOCKET
+                        --> source_dependency = 40547 (SOCKET)
+t=2158333 [st=294]   -SOCKET_POOL_CONNECT_JOB_CONNECT
+t=2158333 [st=294] -SOCKET_POOL_CONNECT_JOB
