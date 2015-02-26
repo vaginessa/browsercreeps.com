@@ -1,0 +1,64 @@
+40548: URL_REQUEST
+https://data2.gosquared.com/ping?vw=790&vh=397&dw=790&dh=398&st=0&sl=0&mst=0&msl=0&i=0&et=0&cb=_105&a=GSN-581113-U&id=d1f7be6dd08ec247ebd279acfc8c4fd1&tv=6.2.1599
+Start Time: 2015-02-26 08:22:01.162
+
+t=2163038 [st=  0] +REQUEST_ALIVE  [dt=233]
+t=2163038 [st=  0]   +URL_REQUEST_DELEGATE  [dt=1]
+t=2163038 [st=  0]      DELEGATE_INFO  [dt=1]
+                        --> delegate_info = "extension Adblock Plus"
+t=2163039 [st=  1]   -URL_REQUEST_DELEGATE
+t=2163039 [st=  1]   +URL_REQUEST_START_JOB  [dt=231]
+                      --> load_flags = 167804928 (BYPASS_DATA_REDUCTION_PROXY | MAYBE_USER_GESTURE | VERIFY_EV_CERT)
+                      --> method = "GET"
+                      --> priority = "LOWEST"
+                      --> url = "https://data2.gosquared.com/ping?vw=790&vh=397&dw=790&dh=398&st=0&sl=0&mst=0&msl=0&i=0&et=0&cb=_105&a=GSN-581113-U&id=d1f7be6dd08ec247ebd279acfc8c4fd1&tv=6.2.1599"
+t=2163039 [st=  1]     +URL_REQUEST_DELEGATE  [dt=1]
+t=2163039 [st=  1]        DELEGATE_INFO  [dt=1]
+                          --> delegate_info = "extension User-Agent Switcher"
+t=2163040 [st=  2]        CHROME_EXTENSION_MODIFIED_HEADERS
+                          --> deleted_headers = []
+                          --> extension_id = "ffhkkpnppgnfaobgihpdblnhmmbodake"
+                          --> modified_headers = ["User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36"]
+t=2163040 [st=  2]     -URL_REQUEST_DELEGATE
+t=2163040 [st=  2]      HTTP_CACHE_GET_BACKEND  [dt=0]
+t=2163040 [st=  2]      HTTP_CACHE_OPEN_ENTRY  [dt=0]
+                        --> net_error = -2 (ERR_FAILED)
+t=2163040 [st=  2]      HTTP_CACHE_CREATE_ENTRY  [dt=0]
+t=2163040 [st=  2]      HTTP_CACHE_ADD_TO_ENTRY  [dt=0]
+t=2163040 [st=  2]      URL_REQUEST_DELEGATE  [dt=0]
+t=2163040 [st=  2]     +HTTP_STREAM_REQUEST  [dt=2]
+t=2163042 [st=  4]        HTTP_STREAM_REQUEST_BOUND_TO_JOB
+                          --> source_dependency = 40550 (HTTP_STREAM_JOB)
+t=2163042 [st=  4]     -HTTP_STREAM_REQUEST
+t=2163042 [st=  4]     +HTTP_TRANSACTION_SEND_REQUEST  [dt=0]
+t=2163042 [st=  4]        HTTP_TRANSACTION_SEND_REQUEST_HEADERS
+                          --> GET /ping?vw=790&vh=397&dw=790&dh=398&st=0&sl=0&mst=0&msl=0&i=0&et=0&cb=_105&a=GSN-581113-U&id=d1f7be6dd08ec247ebd279acfc8c4fd1&tv=6.2.1599 HTTP/1.1
+                              Host: data2.gosquared.com
+                              Connection: keep-alive
+                              Accept: */*
+                              User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36
+                              DNT: 1
+                              Referer: https://kiwiirc.com/client/irc.rizon.net/
+                              Accept-Encoding: gzip, deflate, sdch
+                              Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,es;q=0.4,fr;q=0.2
+t=2163042 [st=  4]     -HTTP_TRANSACTION_SEND_REQUEST
+t=2163042 [st=  4]     +HTTP_TRANSACTION_READ_HEADERS  [dt=228]
+t=2163042 [st=  4]        HTTP_STREAM_PARSER_READ_HEADERS  [dt=228]
+t=2163270 [st=232]        HTTP_TRANSACTION_READ_RESPONSE_HEADERS
+                          --> HTTP/1.1 200 OK
+                              Content-Type: text/javascript
+                              Date: Thu, 26 Feb 2015 13:22:01 GMT
+                              Content-Length: 11
+                              Connection: keep-alive
+t=2163270 [st=232]     -HTTP_TRANSACTION_READ_HEADERS
+t=2163270 [st=232]      HTTP_CACHE_WRITE_INFO  [dt=0]
+t=2163270 [st=232]      HTTP_CACHE_WRITE_DATA  [dt=0]
+t=2163270 [st=232]      HTTP_CACHE_WRITE_INFO  [dt=0]
+t=2163270 [st=232]      URL_REQUEST_DELEGATE  [dt=0]
+t=2163270 [st=232]   -URL_REQUEST_START_JOB
+t=2163270 [st=232]    URL_REQUEST_DELEGATE  [dt=0]
+t=2163270 [st=232]    HTTP_TRANSACTION_READ_BODY  [dt=0]
+t=2163270 [st=232]    HTTP_CACHE_WRITE_DATA  [dt=1]
+t=2163271 [st=233]    HTTP_TRANSACTION_READ_BODY  [dt=0]
+t=2163271 [st=233]    HTTP_CACHE_WRITE_DATA  [dt=0]
+t=2163271 [st=233] -REQUEST_ALIVE
