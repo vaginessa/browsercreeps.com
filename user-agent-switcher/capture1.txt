@@ -1,0 +1,66 @@
+40533: URL_REQUEST
+https://www.worldstream.nl/livehelp/include/status.php?callback=_jqjsp&DATA=eyJKU09OIjoiIiwiSU5JVElBVEUiOiJPcGVuZWQiLCJTRVNTSU9OIjoicDhwZmUxMWVya3h5N2c5MTE3NGE4ODViZDc5MWY1YzAzM2UyY2ZiMzIzZDJiNTIyNzI4OTEwYzFKUlE4NEVJNk5GN3ZlTkZFOElZd3pmZUtZajVtWmFlVDBpSVV5bzRrMkc0PSJ9&_1424956916156=
+Start Time: 2015-02-26 08:21:56.159
+
+t=2158035 [st=  0] +REQUEST_ALIVE  [dt=791]
+t=2158035 [st=  0]   +URL_REQUEST_DELEGATE  [dt=2]
+t=2158035 [st=  0]      DELEGATE_INFO  [dt=2]
+                        --> delegate_info = "extension Adblock Plus"
+t=2158037 [st=  2]   -URL_REQUEST_DELEGATE
+t=2158037 [st=  2]   +URL_REQUEST_START_JOB  [dt=789]
+                      --> load_flags = 167804928 (BYPASS_DATA_REDUCTION_PROXY | MAYBE_USER_GESTURE | VERIFY_EV_CERT)
+                      --> method = "GET"
+                      --> priority = "LOWEST"
+                      --> url = "https://www.worldstream.nl/livehelp/include/status.php?callback=_jqjsp&DATA=eyJKU09OIjoiIiwiSU5JVElBVEUiOiJPcGVuZWQiLCJTRVNTSU9OIjoicDhwZmUxMWVya3h5N2c5MTE3NGE4ODViZDc5MWY1YzAzM2UyY2ZiMzIzZDJiNTIyNzI4OTEwYzFKUlE4NEVJNk5GN3ZlTkZFOElZd3pmZUtZajVtWmFlVDBpSVV5bzRrMkc0PSJ9&_1424956916156="
+t=2158037 [st=  2]     +URL_REQUEST_DELEGATE  [dt=1]
+t=2158037 [st=  2]        DELEGATE_INFO  [dt=1]
+                          --> delegate_info = "extension User-Agent Switcher"
+t=2158038 [st=  3]        CHROME_EXTENSION_MODIFIED_HEADERS
+                          --> deleted_headers = []
+                          --> extension_id = "ffhkkpnppgnfaobgihpdblnhmmbodake"
+                          --> modified_headers = ["User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36"]
+t=2158038 [st=  3]     -URL_REQUEST_DELEGATE
+t=2158038 [st=  3]      HTTP_CACHE_GET_BACKEND  [dt=0]
+t=2158038 [st=  3]      HTTP_CACHE_OPEN_ENTRY  [dt=0]
+                        --> net_error = -2 (ERR_FAILED)
+t=2158038 [st=  3]      HTTP_CACHE_CREATE_ENTRY  [dt=0]
+t=2158038 [st=  3]      HTTP_CACHE_ADD_TO_ENTRY  [dt=0]
+t=2158038 [st=  3]      URL_REQUEST_DELEGATE  [dt=0]
+t=2158038 [st=  3]     +HTTP_STREAM_REQUEST  [dt=295]
+t=2158333 [st=298]        HTTP_STREAM_REQUEST_BOUND_TO_JOB
+                          --> source_dependency = 40535 (HTTP_STREAM_JOB)
+t=2158333 [st=298]     -HTTP_STREAM_REQUEST
+t=2158333 [st=298]     +HTTP_TRANSACTION_SEND_REQUEST  [dt=0]
+t=2158333 [st=298]        HTTP_TRANSACTION_SEND_REQUEST_HEADERS
+                          --> GET /livehelp/include/status.php?callback=_jqjsp&DATA=eyJKU09OIjoiIiwiSU5JVElBVEUiOiJPcGVuZWQiLCJTRVNTSU9OIjoicDhwZmUxMWVya3h5N2c5MTE3NGE4ODViZDc5MWY1YzAzM2UyY2ZiMzIzZDJiNTIyNzI4OTEwYzFKUlE4NEVJNk5GN3ZlTkZFOElZd3pmZUtZajVtWmFlVDBpSVV5bzRrMkc0PSJ9&_1424956916156= HTTP/1.1
+                              Host: www.worldstream.nl
+                              Connection: keep-alive
+                              Accept: */*
+                              User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36
+                              DNT: 1
+                              Referer: https://www.worldstream.nl/login.php
+                              Accept-Encoding: gzip, deflate, sdch
+                              Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,es;q=0.4,fr;q=0.2
+                              Cookie: [188 bytes were stripped]
+t=2158333 [st=298]     -HTTP_TRANSACTION_SEND_REQUEST
+t=2158333 [st=298]     +HTTP_TRANSACTION_READ_HEADERS  [dt=493]
+t=2158333 [st=298]        HTTP_STREAM_PARSER_READ_HEADERS  [dt=493]
+t=2158826 [st=791]        HTTP_TRANSACTION_READ_RESPONSE_HEADERS
+                          --> HTTP/1.1 200 OK
+                              Date: Thu, 26 Feb 2015 13:22:20 GMT
+                              Server: Apache
+                              Cache-Control: no-store, no-cache, must-revalidate
+                              Cache-Control: post-check=0, pre-check=0
+                              Pragma: no-cache
+                              Content-Length: 183
+                              Keep-Alive: timeout=15, max=100
+                              Connection: Keep-Alive
+                              Content-Type: text/javascript; charset=utf-8
+t=2158826 [st=791]     -HTTP_TRANSACTION_READ_HEADERS
+t=2158826 [st=791]      HTTP_CACHE_WRITE_INFO  [dt=0]
+t=2158826 [st=791]      URL_REQUEST_DELEGATE  [dt=0]
+t=2158826 [st=791]   -URL_REQUEST_START_JOB
+t=2158826 [st=791]    URL_REQUEST_DELEGATE  [dt=0]
+t=2158826 [st=791]    HTTP_TRANSACTION_READ_BODY  [dt=0]
+t=2158826 [st=791]    HTTP_TRANSACTION_READ_BODY  [dt=0]
+t=2158826 [st=791] -REQUEST_ALIVE
